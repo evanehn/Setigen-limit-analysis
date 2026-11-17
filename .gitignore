@@ -1,0 +1,16 @@
+cat << 'EOF' > .gitignore
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Radio astronomy & simulation data files
+*.fil
+*.h5
+*.dat
+*.log
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store
+EOF
